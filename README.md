@@ -4,7 +4,7 @@
 The env is based on [OpenSIm RL](https://osim-rl.kidzinski.com/). It includes an ocular environment and an agent trained using Deep Deterministic Policy Gradients method to perform saccades. The agent was able to match the desired eye position with a mean deviation angle of 3.5°±1.25°. 
 
 
-https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
+https://github.com/jIskCoder/jEyeRL/blob/main/video/sim.mp4
 
 
 ## Setup
