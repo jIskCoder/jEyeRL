@@ -24,10 +24,11 @@ git clone https://github.com/jIskCoder/jEyeRL.git
 ```
 # Running
 
+```
 source activate opensim-rl
 cd jEyeRL
 python jeye.py
-
+```
 
 
 ## Citing this work
