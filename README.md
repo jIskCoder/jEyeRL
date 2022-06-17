@@ -9,7 +9,24 @@ ocular biomechanics (Iskander et al., 2018d, 2019, 2018b).
 [Watch the RL agent learning to perform saccades](https://ars.els-cdn.com/content/image/1-s2.0-S0021929022000021-mmc1.mp4)
 
 
-## Setup
+## Setup 
+
+[osim-rl](https://github.com/stanfordnmbl/osim-rl#getting-started)
+
+```
+conda create -n opensim-rl -c kidzik -c conda-forge opensim python=3.6.1
+source activate opensim-rl
+pip install osim-rl
+conda install -c anaconda scipy
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+git clone https://github.com/jIskCoder/jEyeRL.git
+
+```
+# Running
+
+source activate opensim-rl
+cd jEyeRL
+python jeye.py
 
 
 
