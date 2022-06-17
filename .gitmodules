@@ -1,0 +1,3 @@
+[submodule "jEye"]
+	path = jEye
+	url = git@github.com:jIskCoder/jEye.git

@@ -1,10 +1,12 @@
 # jEyeRL
 ## Ocular biomechanical RL environment
 
-The env is based on [OpenSIm RL](https://osim-rl.kidzinski.com/). It includes an ocular environment and an agent trained using Deep Deterministic Policy Gradients method to perform saccades. The agent was able to match the desired eye position with a mean deviation angle of 3.5°±1.25°. 
+The env uses [OpenSIm RL](https://osim-rl.kidzinski.com/). It includes an ocular environment and an agent trained using Deep Deterministic Policy Gradients method to perform saccades. The agent was able to match the desired eye position with a mean deviation angle of 3.5°±1.25°. 
 
+The proposed DRL environment is based on OpenAI (Brockman et al., 2016), OpenSim (Kidziński et al., 2018a; Seth et al., 2018) and
+ocular biomechanics (Iskander et al., 2018d, 2019, 2018b). 
 
-[Watch Agent learning to perform saccades](https://ars.els-cdn.com/content/image/1-s2.0-S0021929022000021-mmc1.mp4)
+[Watch the RL agent learning to perform saccades](https://ars.els-cdn.com/content/image/1-s2.0-S0021929022000021-mmc1.mp4)
 
 
 ## Setup
