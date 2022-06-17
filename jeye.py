@@ -1,4 +1,6 @@
-#!/Users/mo/anaconda3/envs/osimrl/bin/python
+
+##Written by Mo Hossny
+
 import env.seed
 #from env.seed import __set_seed__
 import pdb
@@ -88,7 +90,9 @@ def main(filename=''):
 
 
     agent=DDPGAgent(env,0.99,1e-2,1000000,1e-3,1e-3)
-    train(env,agent,1000,100)
+    #Remove next commentted code to start training
+    #Don't forget to create directory (trainedmodels) to save models
+    #train(env,agent,1000,100)
     ctrl = Actor()
     state_dict = torch.load('jeyeF3216__99___-8.ddpg')
     ctrl.load_state_dict(state_dict['actor'])
