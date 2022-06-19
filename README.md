@@ -59,4 +59,3 @@ author = {Julie Iskander and Mohammed Hossny},
   publisher={Elsevier}
 }
 ```
-}
