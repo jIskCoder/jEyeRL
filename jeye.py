@@ -61,7 +61,7 @@ def train(env, agent,max_episodes=100,max_steps=10,batch_size=64):
 
     return episode_rewards
     
-def play(env, ctrl,dy,dz, n_episodes=50, n_episode_len=100, visualize=True):
+def play(env, ctrl,dy,dz, n_episodes=520, n_episode_len=50, visualize=True):
     log = []
     for epsd in range(n_episodes):
         x = np.random.uniform(0.99, 1.01)
@@ -79,7 +79,7 @@ def play(env, ctrl,dy,dz, n_episodes=50, n_episode_len=100, visualize=True):
 
             epsd_rwrd += reward
             state = new_state
-    with open('./data_'+str(np.round(dy,decimal=1))+"_"+str(np.round(dz,decimal=1))+".csv", 'w') as f:
+    with open('./data_'+str(np.round(dy,1))+"_"+str(np.round(dz,1))+".csv", 'w') as f:
         f.write("Episode, Step, dy,dz,ballx,bally,ballz,rpogx,rpogy,rpogz,lpogx,lpogy,lpogz,rcoordx,rcoody,rcoordz,lcoordx,lcoordy,lcoordz,rlr,rmr,rsr,rir,rso,rio,llr,lmr,lsr,lir,lso,lio,reward,Ldist,Rdist\n")
         np.savetxt(f, log, delimiter=',',fmt='%5s')
 
