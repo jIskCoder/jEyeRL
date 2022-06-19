@@ -48,3 +48,15 @@ url = {https://www.sciencedirect.com/science/article/pii/S0021929022000021},
 author = {Julie Iskander and Mohammed Hossny},
 }
 ```
+```bibtex
+@article{iskander2018ocular,
+  title={An ocular biomechanic model for dynamic simulation of different eye movements},
+  author={Iskander, J and Hossny, Mohammed and Nahavandi, Saeid and Del Porto, L},
+  journal={Journal of biomechanics},
+  volume={71},
+  pages={208--216},
+  year={2018},
+  publisher={Elsevier}
+}
+```
+}
